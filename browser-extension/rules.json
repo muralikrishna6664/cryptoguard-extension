@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "coinhive.com",
+        "jsecoin.com",
+        "crypto-loot.com",
+        "cryptoloot.pro",
+        "coinimp.com",
+        "webminerpool.com",
+        "minero.cc",
+        "cryptonight.com"
+      ],
+      "resourceTypes": ["script", "xmlhttprequest", "sub_frame", "websocket", "other"]
+    }
+  }
+]
